@@ -6,6 +6,7 @@ This consists of 2 applications:
 
 - Publisher Web API
 - RabbitMQ Queue Service
+
 Each of these services are run in **Docker** container and are decoupled. While any queue service can be used, initially RabbintMQ is used because of it popularity, ease of use, and availability. The 2 applications can be deployed using Docker Compose.
 
 1. Publisher Web API
